@@ -1,0 +1,108 @@
+@media only screen and (max-width: 768px) {
+.container {
+  position: relative;
+  text-align: center;
+  color: green;
+  
+}
+nav{
+	width: 90%;
+}
+
+/* Bottom left text */
+
+
+ 
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: large;
+  color: green;
+}
+button:hover{
+	color: red;
+}
+button:active{
+	color: white;
+}
+button: visited{
+	color : green;
+}
+
+a:hover{
+	color: red;
+}
+a: active{
+	color: blue;
+}
+a: visited{
+	color : green;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+	
+	.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  
+}
+
+/* Bottom left text */
+
+nav{
+	width: 100%;
+}
+ 
+
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: large;
+  color: black;
+ 
+}
+
+button:hover{
+	color: red;
+}
+button:active{
+	color: white;
+}
+button: visited{
+	color : green;
+}
+
+
+a:hover{
+	color: red;
+}
+a: active{
+	color: blue;
+}
+a: visited{
+	color : green;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+}
